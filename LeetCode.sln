@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueBinarySearchTreesII",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueBinarySearchTrees", "UniqueBinarySearchTrees\UniqueBinarySearchTrees.csproj", "{CBCD86CE-CAFD-4DF7-81BB-601CB8C2D61B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfValidWordsForEachPuzzle", "NumberOfValidWordsForEachPuzzle\NumberOfValidWordsForEachPuzzle.csproj", "{16C9F91B-67D8-4BBD-A842-6DF8ED050E50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{CBCD86CE-CAFD-4DF7-81BB-601CB8C2D61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBCD86CE-CAFD-4DF7-81BB-601CB8C2D61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBCD86CE-CAFD-4DF7-81BB-601CB8C2D61B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C9F91B-67D8-4BBD-A842-6DF8ED050E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C9F91B-67D8-4BBD-A842-6DF8ED050E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C9F91B-67D8-4BBD-A842-6DF8ED050E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C9F91B-67D8-4BBD-A842-6DF8ED050E50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
