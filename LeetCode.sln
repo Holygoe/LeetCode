@@ -22,6 +22,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueBinarySearchTrees", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfValidWordsForEachPuzzle", "NumberOfValidWordsForEachPuzzle\NumberOfValidWordsForEachPuzzle.csproj", "{16C9F91B-67D8-4BBD-A842-6DF8ED050E50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressionMatching", "RegularExpressionMatching\RegularExpressionMatching.csproj", "{85C02013-8272-4638-A4E0-06F3BC0D4636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTimeToBuyAndSellStockII", "BestTimeToBuyAndSellStockII\BestTimeToBuyAndSellStockII.csproj", "{F73BDA61-2F4B-4664-B11D-64DCCC42590A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +76,13 @@ Global
 		{16C9F91B-67D8-4BBD-A842-6DF8ED050E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16C9F91B-67D8-4BBD-A842-6DF8ED050E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16C9F91B-67D8-4BBD-A842-6DF8ED050E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85C02013-8272-4638-A4E0-06F3BC0D4636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85C02013-8272-4638-A4E0-06F3BC0D4636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85C02013-8272-4638-A4E0-06F3BC0D4636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85C02013-8272-4638-A4E0-06F3BC0D4636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F73BDA61-2F4B-4664-B11D-64DCCC42590A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73BDA61-2F4B-4664-B11D-64DCCC42590A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73BDA61-2F4B-4664-B11D-64DCCC42590A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73BDA61-2F4B-4664-B11D-64DCCC42590A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

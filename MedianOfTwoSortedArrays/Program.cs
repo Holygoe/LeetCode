@@ -49,17 +49,35 @@ namespace MedianOfTwoSortedArrays
 
             while (step < stepCount)
             {
-                step++;
-
                 if (i1 >= nums1.Length)
                 {
-                    i2++;
+                    var rest = stepCount - step;
+                    i2 += rest;
+
+                    if (medianSize == 1)
+                    {
+                        return nums2[i2];
+                    }
+                    
+                    return (nums2[i2] + nums2[i2 + 1]) / (double)medianSize;
                 }
-                else if (i2 >= nums2.Length)
+
+                if (i2 >= nums2.Length)
                 {
-                    i1++;
+                    var rest = stepCount - step;
+                    i1 += rest;
+
+                    if (medianSize == 1)
+                    {
+                        return nums1[i1];
+                    }
+                    
+                    return (nums1[i1] + nums1[i1 + 1]) / (double)medianSize;
                 }
-                else if (nums1[i1] <= nums2[i2])
+                
+                step++;
+
+                if (nums1[i1] <= nums2[i2])
                 {
                     i1++;
                 }
