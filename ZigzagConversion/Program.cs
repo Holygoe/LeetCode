@@ -13,11 +13,31 @@ namespace ZigzagConversion
         
         private static void Main()
         {
-            var solution = new Solution();
+            // var solution = new Solution();
+            //
+            // foreach (var task in Tasks)
+            // {
+            //     Test(solution, task);
+            // }
 
-            foreach (var task in Tasks)
+            var x = 1534236469;
+            var result = 0;
+            var isMinus = x < 0;
+            var max = isMinus ? int.MinValue / 10 : int.MaxValue / 10;
+            var maxRest = isMinus ? int.MinValue % 10 : int.MaxValue % 10;
+        
+            while (x != 0)
             {
-                Test(solution, task);
+                var rest = x % 10;
+            
+                if (isMinus && result <= max && rest < maxRest 
+                    || !isMinus && result >= max && rest > maxRest)
+                {
+                    return;
+                }
+            
+                result = result * 10 + rest;;
+                x = (x - rest) / 10;
             }
         }
 

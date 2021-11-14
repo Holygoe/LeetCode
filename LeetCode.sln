@@ -28,6 +28,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTimeToBuyAndSellStockII
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZigzagConversion", "ZigzagConversion\ZigzagConversion.csproj", "{43E69F97-A1CE-422A-986A-E48EB5919A5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringToIntegerAtoi", "StringToIntegerAtoi\StringToIntegerAtoi.csproj", "{D6E5A94C-F0C8-449C-B7C5-C179ED83DD19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorForCombination", "IteratorForCombination\IteratorForCombination.csproj", "{836FBA98-8542-43B6-B746-BFC8BDE026EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +94,13 @@ Global
 		{43E69F97-A1CE-422A-986A-E48EB5919A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43E69F97-A1CE-422A-986A-E48EB5919A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43E69F97-A1CE-422A-986A-E48EB5919A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6E5A94C-F0C8-449C-B7C5-C179ED83DD19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E5A94C-F0C8-449C-B7C5-C179ED83DD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E5A94C-F0C8-449C-B7C5-C179ED83DD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E5A94C-F0C8-449C-B7C5-C179ED83DD19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{836FBA98-8542-43B6-B746-BFC8BDE026EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836FBA98-8542-43B6-B746-BFC8BDE026EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836FBA98-8542-43B6-B746-BFC8BDE026EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836FBA98-8542-43B6-B746-BFC8BDE026EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
