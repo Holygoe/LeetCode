@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringToIntegerAtoi", "Stri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorForCombination", "IteratorForCombination\IteratorForCombination.csproj", "{836FBA98-8542-43B6-B746-BFC8BDE026EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumFrequencyStack", "MaximumFrequencyStack\MaximumFrequencyStack.csproj", "{B37A6659-06BC-42CB-BBC1-6AA8FB0452F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{836FBA98-8542-43B6-B746-BFC8BDE026EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{836FBA98-8542-43B6-B746-BFC8BDE026EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{836FBA98-8542-43B6-B746-BFC8BDE026EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37A6659-06BC-42CB-BBC1-6AA8FB0452F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37A6659-06BC-42CB-BBC1-6AA8FB0452F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37A6659-06BC-42CB-BBC1-6AA8FB0452F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37A6659-06BC-42CB-BBC1-6AA8FB0452F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
