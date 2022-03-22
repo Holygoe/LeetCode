@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorForCombination", "I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumFrequencyStack", "MaximumFrequencyStack\MaximumFrequencyStack.csproj", "{B37A6659-06BC-42CB-BBC1-6AA8FB0452F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallestStringWithAGivenNumericValue", "SmallestStringWithAGivenNumericValue\SmallestStringWithAGivenNumericValue.csproj", "{A0D850D3-2CA9-44A0-A669-00CBFDE3F935}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,5 +110,9 @@ Global
 		{B37A6659-06BC-42CB-BBC1-6AA8FB0452F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B37A6659-06BC-42CB-BBC1-6AA8FB0452F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B37A6659-06BC-42CB-BBC1-6AA8FB0452F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D850D3-2CA9-44A0-A669-00CBFDE3F935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D850D3-2CA9-44A0-A669-00CBFDE3F935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D850D3-2CA9-44A0-A669-00CBFDE3F935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D850D3-2CA9-44A0-A669-00CBFDE3F935}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
