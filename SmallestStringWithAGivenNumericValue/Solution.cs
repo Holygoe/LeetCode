@@ -10,7 +10,7 @@ public class Solution
         for (var i = nums.Length - 1; i >= 0; i--)
         {
             var rest = k - i;
-            nums[i] = rest > maxNum ? maxNum : rest;
+            nums[i] = Math.Min(maxNum, rest);
             k -= nums[i];
         }
         
